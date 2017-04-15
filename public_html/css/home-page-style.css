@@ -8,8 +8,10 @@ and open the template in the editor.
     Author     : Ali h
 */
 .navbar-inverse{
-    background-color: #EEEEEE;
-    border-bottom: 0px;
+    background-color: #2196F3;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px;
 }
 .navbar-inverse .navbar-brand{
     color: #FF32C4;
@@ -42,8 +44,25 @@ and open the template in the editor.
     color: #FAFAFA;
     background-color: #6D2EE8;
 }
+ 
 /*------------header-----------------*/
+ 
+.header-part{
+    height: 60px;
+    width: auto;
+    max-height: 60px;
+    background-color: #FFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.title-of-header{
+    padding: 20px 0px 20px 10px;
+    font-size: 20px;
+}
 
-.jumbotron {
-     height: 300px;
+.container .jumbotron, .container-fluid .jumbotron{
+     border-radius: 0px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    margin-top: 0px;
 }

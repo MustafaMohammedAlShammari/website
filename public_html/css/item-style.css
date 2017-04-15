@@ -8,12 +8,15 @@ and open the template in the editor.
     Author     : Ali h
 */
 .card-veiw{
-    width: 350px;
-    border: 1px solid #555;
-    box-shadow: 1px 1px 3px #888;
-    min-height: 250px;
-    padding: 10px;
-    margin: 10px;
-    overflow: hidden;
+    width: auto;
+    height: 300px;
     
+    border: 1px solid #E0E0E0;
+    box-shadow:1px 1px 5px 2px #dfdfdf;
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+.list-group{
+    margin-bottom: 1000px;
 }
